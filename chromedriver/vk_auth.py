@@ -6,8 +6,6 @@ from selenium.webdriver.common.keys import Keys
 from params import login, password
 import os
 
-
-
 cur_directory = os.getcwd()
 
 options = webdriver.ChromeOptions()
